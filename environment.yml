@@ -1,0 +1,12 @@
+# conda env create -f environment.yml
+name: weatherapi
+channels:
+  - defaults
+dependencies:
+  - python=3.11  # Specify your desired Python version
+  - numpy
+  - pandas
+  - sqlalchemy
+  - psycopg2==2.9.9
+  - requests==2.31.0
+
