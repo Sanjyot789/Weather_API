@@ -8,13 +8,13 @@ This Python-based data pipeline allows you to fetch, transform, and store real-t
 1. **Clone the Repository:**
 
    ```shell
-   git clone https://github.com/yourusername/weather-data-pipeline.git
+   git clone https://github.com/Sanjyot789/Weather_API.git
 
 2. **Install Required Packages:**
 
-Make sure you have Python 3.x installed. You can install the required packages using pip:
+Make sure you have Python 3.11 installed. You can install the required packages using pip:
 ```
-pip install requests pandas sqlalchemy
+pip install requests pandas sqlalchemy psycopg2
 ```
 
 3. **Configure the Database:**
